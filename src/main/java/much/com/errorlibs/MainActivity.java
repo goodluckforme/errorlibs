@@ -41,6 +41,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.check_password).setOnClickListener(this);
         findViewById(R.id.check_param).setOnClickListener(this);
         pswEditText = findViewById(R.id.check_password_ed);
+        
     }
 
     @Override
