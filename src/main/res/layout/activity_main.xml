@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="much.com.errorlibs.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Aop的主要用处有以下几种:\n\n日志记录，性能统计，安全控制，事务处理，异常处理等等wn及扩展"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/check_net"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="检查网络"></TextView>
+
+    <TextView
+        android:id="@+id/check_permisson"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="检查权限"></TextView>
+
+    <TextView
+        android:id="@+id/check_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="记录日志"></TextView>
+
+    <TextView
+        android:id="@+id/check_crash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="异常处理"></TextView>
+
+    <TextView
+        android:id="@+id/check_safe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="安全处理"></TextView>
+
+    <TextView
+        android:id="@+id/check_affair"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="事务处理"></TextView>
+
+    <EditText
+        android:id="@+id/check_password_ed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入包含字母和数字且不少于6位的密码"
+        android:textColor="#333333"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/check_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:text="验证密码"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:id="@+id/check_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="登录验证"></TextView>
+
+    <TextView
+        android:id="@+id/check_param"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:text="检查属性"></TextView>
+
+</LinearLayout>
